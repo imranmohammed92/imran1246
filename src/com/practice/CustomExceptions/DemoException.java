@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.CustomExceptions;
 
 public class DemoException {
     public static void main(String[] args) {
