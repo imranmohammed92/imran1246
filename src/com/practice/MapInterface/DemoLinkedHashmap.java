@@ -11,8 +11,10 @@ public class DemoLinkedHashmap {
         mydata.put(35,78);
         mydata.put(45,12);
         mydata.put(33,88);
-        mydata.put(null,11);
+        mydata.put(null,11);  // allow null as a key and value pair
         mydata.put(99,null);
+        mydata.put(55,34);
+        mydata.put(67,34);  // does not allow duplicate key and it allows
 
         Iterator iterator = mydata.entrySet().iterator();
         while (iterator.hasNext()){

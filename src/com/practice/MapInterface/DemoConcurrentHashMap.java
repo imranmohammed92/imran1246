@@ -13,7 +13,7 @@ public class DemoConcurrentHashMap {
         mydata.put(45,12);
         mydata.put(33,88);
         mydata.put(67,55);        //Does not allow null as a value and key
-        mydata.put(40,79);
+        mydata.put(77,79);       // does not allow duplicate key
 
         Iterator iterator = mydata.entrySet().iterator();
         while (iterator.hasNext()){

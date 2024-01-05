@@ -13,7 +13,7 @@ public class DemoTreeMap {
         mydata.put(45,12);
         mydata.put(33,88);
         mydata.put(66,11); // does not allow null as a key
-        mydata.put(99,null);
+        mydata.put(99,null); // data sorted by default ascending oder
 
         Iterator iterator = mydata.entrySet().iterator();
         while (iterator.hasNext()){
